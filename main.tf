@@ -16,7 +16,7 @@ resource "aws_lambda_function" "example" {
    filename = "example.zip"
 
    handler = "main.handler"
-   runtime = "nodejs10.x"
+   runtime = "nodejs14.x"
 
    role = aws_iam_role.lambda_exec.arn
 }
@@ -50,8 +50,8 @@ resource "aws_iam_role_policy_attachment" "example_basic_policy" {
 
 
 resource "aws_api_gateway_rest_api" "example" {
-  name        = "ServerlessExample"
-  description = "Terraform Serverless Application Example"
+  name        = "DocumentationExample"
+  description = "API Gateway Self Hosted Documentation Example"
 }
 
 resource "aws_api_gateway_resource" "docs" {
