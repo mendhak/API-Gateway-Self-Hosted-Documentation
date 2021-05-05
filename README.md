@@ -1,3 +1,4 @@
+## API Gateway Self-Hosted Documentation
 
 Sample repo to show an API Gateway hosting its own OpenAPI documentation in a Lambda. 
 
