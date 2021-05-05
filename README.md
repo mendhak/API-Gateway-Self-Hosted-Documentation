@@ -7,4 +7,4 @@ terraform apply
 ```
 
 
-https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway
+See the [writeup here](https://code.mendhak.com/api-gateway-self-hosted-documentation/)
